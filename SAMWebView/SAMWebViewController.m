@@ -163,7 +163,6 @@
 - (SAMWebView *)webView {
     if (_webView == nil) {
         _webView = [[SAMWebView alloc] init];
-        _webView.backgroundColor = [UIColor scrollViewTexturedBackgroundColor];
         _webView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
         _webView.delegate = self;
         _webView.scalesPageToFit = YES;
